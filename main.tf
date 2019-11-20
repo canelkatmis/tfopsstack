@@ -17,3 +17,4 @@ resource "null_resource" "root" {
     value = "${timestamp()}"
   }
 }
+
