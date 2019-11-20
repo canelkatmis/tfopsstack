@@ -12,7 +12,7 @@ terraform {
   }
 }
 
-resource "null_resource" "root" {
+resource "null_resource" "root2" {
   triggers = {
     value = "${timestamp()}"
   }
